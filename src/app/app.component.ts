@@ -31,13 +31,13 @@ export class AppComponent {
     // console.log(editor.setValue("Hello World!"));
 
     // console.log(editor.dispose()); //to remove the editor
-    console.log(editor.length);
-    this.modifiedModel.code = editor.getValue();
+    // console.log();
+    // this.modifiedModel.code = editor.getValue();
 
   }
   onChange(editor: any) { 
     // this.modifiedModel.code = editor;
-    console.log(editor);
+    console.log(JSON.stringify(editor));
   }
   
-}
+} 
