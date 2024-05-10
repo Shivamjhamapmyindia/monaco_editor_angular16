@@ -1,4 +1,5 @@
 <div style="height: 500px">
+  <button (click)="runCode()">Run</button>
   <ngx-monaco-editor class="my-code-editor" style="height: 100%" [options]="editorOptions" [(ngModel)]="code" (onInit)="onInit($event)" (ngModelChange)="onChange($event)"></ngx-monaco-editor>
 </div>
-<ngx-monaco-diff-editor [options]="options" [originalModel]="originalModel" [modifiedModel]="modifiedModel"></ngx-monaco-diff-editor>
+<!-- <ngx-monaco-diff-editor [options]="options" [originalModel]="originalModel" [modifiedModel]="modifiedModel"></ngx-monaco-diff-editor> -->
